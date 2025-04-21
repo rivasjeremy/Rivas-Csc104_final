@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jeremy Rivas - Portfolio</title>
+</head>
+<body>
+    <!-- Quick header section --> 
+  <header>
+    <h1>Jeremy Rivas</h1>
+    <p>Computer Science Student | Aspiring Developer</p>
+  </header>
+<!--navigation section-->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </nav>
+<!-- Main intro -->
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I'm a Computer Science student at the University of Advancing Technology in Tempe, AZ, passionate about coding, tech, and building cool stuff. Always eager to learn and take on new challenges!</p>
+    </section>
+<!-- Projects section -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <article class="project">
+        <h3>Timer App (React Native)</h3>
+        <p>A simple mobile timer application made with React Native. It helps users manage focus sessions and breaks.</p>
+      </article>
+      <article class="project">
+        <h3>Personal Portfolio</h3>
+        <p>This very site! Built with raw HTML5 and CSS to showcase my projects, work history, and background.</p>
+      </article>
+    </section>
+
+<!-- Skills section -->
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>University of Advancing Technology</strong> – B.S. in Computer Science (2022 – Present)</li>
+        <li><strong>South Shore Vocational Technical High School</strong> – Hanover, MA (2018 – 2021)</li>
+      </ul>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: your.email@example.com</p>
+      <p>GitHub: <a href="https://github.com/rivasjeremy" target="_blank">github.com/rivasjeremy</a></p>
+    </section>
+  </main>
+</body>
+</html>
